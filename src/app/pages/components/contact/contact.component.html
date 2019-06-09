@@ -1,2 +1,44 @@
-<app-contact></app-contact>
-<div>gg</div>
+<section>
+  <div class="wrap white">
+    <app-hero [title]="contact.hero"></app-hero>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="container column">
+      <div class="item">
+        <h2>{{ contact.title }}</h2>
+      </div>
+      <div class="item">
+        <form>
+          <div class="container">
+            <div class="item">
+              <input type="text" [placeholder]="contact.contactForm.name" />
+            </div>
+            <div class="item">
+              <input type="text" [placeholder]="contact.contactForm.email" />
+            </div>
+            <div class="item">
+              <input type="number" [placeholder]="contact.contactForm.number" />
+            </div>
+          </div>
+          <h3>{{ contact.contactForm.choose.title }}</h3>
+          <div class="container">
+            <div
+              class="item"
+              *ngFor="let option of contact.contactForm.choose.options"
+            >
+              <input type="radio" /><span>{{ option }}</span>
+            </div>
+          </div>
+          <div class="container">
+            <div class="item">
+              <textarea></textarea>
+            </div>
+          </div>
+          <button type="submit">{{ contact.send }}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
