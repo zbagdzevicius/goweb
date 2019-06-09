@@ -1,0 +1,17 @@
+<div class="container column center-vertical">
+  <div class="container column center-vertical section white">
+    <h2>
+      {{ skills.title }}
+    </h2>
+    <h3>
+      {{ skills.subtitle }}
+    </h3>
+  </div>
+  <div class="container cards">
+    <app-card
+      [card]="card"
+      *ngFor="let card of skills.cards"
+      class="item card"
+    ></app-card>
+  </div>
+</div>

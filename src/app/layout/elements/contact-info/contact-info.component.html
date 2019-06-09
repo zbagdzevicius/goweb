@@ -1,0 +1,30 @@
+<span *ngIf="contactInfo">
+  <dl *ngIf="iconsOnly; else fullInfo">
+  <dt>
+    <a href="`tel:${contactInfo.email}`"
+      ><img class="icon" src="assets/images/email.png"
+    /></a>
+  </dt>
+  <dt>
+    <a href="`mailto:${contactInfo.number}`"
+      ><img class="icon" src="assets/images/phone.png"
+    /></a>
+  </dt>
+</dl>
+<ng-template #fullInfo>
+  <dl>
+    <dt>
+      <a href="`tel:${contactInfo.email}`">
+        <img class="icon" src="assets/images/email.png" />
+        {{ contactInfo.email }}
+      </a>
+    </dt>
+    <dt>
+      <a href="`mailto:${contactInfo.number}`">
+        <img class="icon" src="assets/images/phone.png" />
+        {{ contactInfo.number }}
+      </a>
+    </dt>
+  </dl>
+</ng-template>
+</span>

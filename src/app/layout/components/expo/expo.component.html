@@ -1,0 +1,28 @@
+<div *ngIf="expo" class="container column">
+  <div class="container column center-vertical section">
+    <h2>
+      {{ expo.title }}
+    </h2>
+  </div>
+  <!-- <div *ngFor="let chunkOfProjects of chunksOfProjects; first as isFirst" [ngClass]="{'section':isFirst}">
+    <app-images-row [projects]="chunkOfProjects"></app-images-row>
+  </div> -->
+  <div *ngFor="let project of expo.projects; let i = index">
+    <div *ngIf="i % 3 == 0" class="container items section">
+      <span class="item" (click)="changeModal(i)">
+        <app-images-row [projects]="project"></app-images-row>
+      </span>
+      <span class="item" (click)="changeModal(i+1)">
+        <app-images-row [projects]="expo.projects[i + 1]"></app-images-row>
+      </span>
+      <span class="item" (click)="changeModal(i+2)">
+        <app-images-row [projects]="expo.projects[i + 2]"></app-images-row>
+      </span>
+    </div>
+    <app-image-modal
+      *ngIf="modalIndex === i"
+      [imageSource]="project.imageHighResolution"
+      (valueChange)="turnOffModal($event)"
+    ></app-image-modal>
+  </div>
+</div>

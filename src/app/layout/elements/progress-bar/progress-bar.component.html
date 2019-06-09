@@ -1,0 +1,4 @@
+<div *ngFor="let tool of tools" class="item section">
+  <h5>{{ tool.name }}</h5>
+  <progress max="100" [value]="tool.value"></progress>
+</div>

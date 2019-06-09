@@ -1,0 +1,26 @@
+<div class="item container column center-vertical center" *ngIf="review">
+  <h2 class="white">{{ review.title }}</h2>
+  <div class="card-review section">
+    <div class="item wrap margin">
+      <div class="item container center section">
+        <img class="card-review-logo" src="assets/images/quote.png" />
+      </div>
+      <h4 class="item container center section">
+        {{ currentReview.author }}
+      </h4>
+      <p class="item container center section">
+        <i>{{ currentReview.text }}</i>
+      </p>
+      <div class="item container center">
+        <img class="card-review-logo" [src]="currentReview.logo" />
+      </div>
+    </div>
+  </div>
+  <div class="item container center center-vertical dots">
+    <span
+      *ngFor="let post of review.posts; index as i"
+      (click)="changeCurrentReview(i)" class="dot" [ngClass]="{'active': i === currentIndex}"
+      ></span
+    >
+  </div>
+</div>

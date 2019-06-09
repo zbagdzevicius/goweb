@@ -1,0 +1,7 @@
+<span>
+    <button *ngIf="isContactButton; else simpleButton" [routerLink]="['/contact']">{{text}}</button>
+</span>
+<ng-template #simpleButton>
+    <button>{{text}}</button>
+</ng-template>
+

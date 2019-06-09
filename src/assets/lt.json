@@ -1,0 +1,204 @@
+{
+  "menu": [
+    "Goweb",
+    "Apie Mus",
+    "Įgūdžiai",
+    "Mūsų darbai"
+  ],
+  "contactInfo": {
+    "number": "+37067277255",
+    "email": "info@goweb.lt"
+  },
+  "logo": "assets/images/logo.png",
+  "contactButton": "SUSISIEKITE",
+  "heading": {
+    "title": "Sukursime arba atnaujinsime Jūsų svetainę",
+    "subtitle": "Padidinkite lankytojų skaičių"
+  },
+  "aboutUs": {
+    "title": "Kas mes esame?",
+    "image": "assets/images/about.png",
+    "texts": [
+      {
+        "bold": "Mes esame komanda susidedanti iš IT specialistų bei vartotojo elgsenos dizainerių."
+      },
+      {
+        "underlined": "Esminis mūsų tikslas - išanalizuoti vartotojo elgseną"
+      },
+      {
+        "text": "sprendimus priimti iš internetinės svetainės naudotojo perpektyvos, įgyvendinti įnotyvius sprendimus, nustelbti konkurentus."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Mūsų įgūdžiai",
+    "subtitle": "Propaguojamos naujausios technologijos bei inžineriai sprendimai",
+    "cards": [
+      {
+        "image": "assets/images/icons/programming.png",
+        "additionalInfo": null,
+        "title": "Programavimas",
+        "subtitle": "Technologijos",
+        "tools": [
+          {
+            "name": "ANGULAR 8",
+            "value": 100
+          },
+          {
+            "name": "PYTHON",
+            "value": 100
+          },
+          {
+            "name": "NodeJS",
+            "value": 100
+          },
+          {
+            "name": "JAVA",
+            "value": 100
+          },
+          {
+            "name": "HTML5 + CSS + SASS",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "image": "assets/images/icons/settings.png",
+        "additionalInfo": "Įgyvendiname veiksmingiausius sprendimus kurdami svetainės veikimo prototipą, kurį galite išbandyti projekto eigoje bei aptarti norimas detales.",
+        "title": "Prototipų kūrimas",
+        "subtitle": "Tęstinumas",
+        "tools": [
+          {
+            "name": "PROJEKTO PALAIKYMAS",
+            "value": 100
+          },
+          {
+            "name": "TESTAVIMAS",
+            "value": 100
+          },
+          {
+            "name": "PROTOTIPAVIMAS",
+            "value": 100
+          }
+        ]
+      },
+      {
+        "image": "assets/images/icons/design.png",
+        "additionalInfo": null,
+        "title": "Dizainas",
+        "subtitle": "Įrankiai",
+        "tools": [
+          {
+            "name": "ADOBE XD",
+            "value": 100
+          },
+          {
+            "name": "ADOBE ILLUSTRATOR",
+            "value": 90
+          },
+          {
+            "name": "ADOBE PHOTOSHOP",
+            "value": 85
+          },
+          {
+            "name": "ADOBE INDESIGN",
+            "value": 80
+          },
+          {
+            "name": "ADOBE DREAMWEAVER",
+            "value": 70
+          }
+        ]
+      }
+    ]
+  },
+  "expo": {
+    "title": "Mūsų darbai",
+    "projects": [
+      {
+        "image": "assets/images/expo/1.png",
+        "imageHighResolution": "assets/images/expo/1.png",
+        "link": "#"
+      },
+      {
+        "image": "assets/images/expo/2.png",
+        "imageHighResolution": "assets/images/expo/2.png",
+        "link": "#"
+      },
+      {
+        "image": "assets/images/expo/3.png",
+        "imageHighResolution": "assets/images/expo/3.png",
+        "link": "#"
+      },
+      {
+        "image": "assets/images/expo/4.png",
+        "imageHighResolution": "assets/images/expo/4.png",
+        "link": "#"
+      },
+      {
+        "image": "assets/images/expo/5.png",
+        "imageHighResolution": "assets/images/expo/5.png",
+        "link": "#"
+      },
+      {
+        "image": "assets/images/expo/6.png",
+        "imageHighResolution": "assets/images/expo/6.png",
+        "link": "#"
+      }
+    ]
+  },
+  "review": {
+    "title": "Atsiliepimai",
+    "posts": [
+      {
+        "author": "Antanas kartenius",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias est vitae saepe nisi repellendus ducimus, pariatur neque expedita culpa et itaque laborum ipsam nesciunt, porro soluta maiores odio quam corrupti.",
+        "logo": "assets/images/expo/1.png"
+      },
+      {
+        "author": "Sangokas",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias est vitae saepe nisi repellendus ducimus, pariatur neque expedita culpa et itaque laborum ipsam nesciunt, porro soluta maiores odio quam corrupti.",
+        "logo": "assets/images/expo/2.png"
+      },
+      {
+        "author": "Nedomas Grašys",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias est vitae saepe nisi repellendus ducimus, pariatur neque expedita culpa et itaque laborum ipsam nesciunt, porro soluta maiores odio quam corrupti.",
+        "logo": "assets/images/expo/3.png"
+      },
+      {
+        "author": "Nežygimantas Bagdzevičius",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias est vitae saepe nisi repellendus ducimus, pariatur neque expedita culpa et itaque laborum ipsam nesciunt, porro soluta maiores odio quam corrupti.",
+        "logo": "assets/images/expo/4.png"
+      },
+      {
+        "author": "Žygimantas Nebagdzevičius",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias est vitae saepe nisi repellendus ducimus, pariatur neque expedita culpa et itaque laborum ipsam nesciunt, porro soluta maiores odio quam corrupti.",
+        "logo": "assets/images/expo/5.png"
+      },
+      {
+        "author": "Domas Negrašys",
+        "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias est vitae saepe nisi repellendus ducimus, pariatur neque expedita culpa et itaque laborum ipsam nesciunt, porro soluta maiores odio quam corrupti.",
+        "logo": "assets/images/expo/6.png"
+      }
+    ]
+  },
+  "contact": {
+    "hero": "Džiaugiamės galėdami padėti įgyvendinti jūsų verslo įdėjas",
+    "title": "Užpilykite šią formą, tuomet iškart su Jumis susisieksime",
+    "send": "SIŲSTI",
+    "contactForm": {
+      "name": "Jūsų vardas",
+      "email": "El. paštas",
+      "number": "Telefono numeris",
+      "Message": "Apibūdinkite savo projektą",
+      "choose": {
+        "title": "Pasirinkite projekto tipą",
+        "options": [
+          "Paprastas tinklapis",
+          "Internetinė parduotuvė",
+          "Tinklapis aplikacija"
+        ]
+      }
+    }
+  }
+}

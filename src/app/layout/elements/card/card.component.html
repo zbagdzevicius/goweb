@@ -1,0 +1,13 @@
+<div class="container column center-vertical" *ngIf="card">
+  <div class="item margin">
+    <div class="container center-vertical column">
+      <img [src]="card.image">
+      <h3>{{ card.title }}</h3>
+      <h4>{{ card.subtitle }}</h4>
+    </div>
+    <p class="grey">{{ card.additionalInfo }}</p>
+    <div class="item">
+      <app-progress-bar [tools]="card.tools"></app-progress-bar>
+    </div>
+  </div>
+</div>

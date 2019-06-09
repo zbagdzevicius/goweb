@@ -1,0 +1,9 @@
+<div class="container center-vertical wrap" *ngIf="aboutUs">
+  <div class="item">
+    <h2>{{ aboutUs.title }}</h2>
+    <app-texts *ngFor="let text of aboutUs.texts" [text]="text"></app-texts>
+  </div>
+  <div class="item">
+    <app-image [imageSource]="aboutUs.image"></app-image>
+  </div>
+</div>
