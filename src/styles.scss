@@ -187,6 +187,7 @@ footer {
 .items .item img,
 .overlay, input, textarea{
   border-radius: $border-radius;
+  outline: none;
 }
 .card {
   background: $background-card;

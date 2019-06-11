@@ -24,12 +24,13 @@
           </div>
           <h3>{{ contact.contactForm.choose.title }}</h3>
           <div class="container">
-            <div
-              class="item"
+            <label
+              class="item radios"
               *ngFor="let option of contact.contactForm.choose.options"
             >
-              <input type="radio" /><span>{{ option }}</span>
-            </div>
+              <span>{{ option }}</span>
+              <input type="radio" name="radio" />
+            </label>
           </div>
           <div class="container">
             <div class="item">
